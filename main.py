@@ -1,3 +1,5 @@
+print("\n📊 REPORTE DE VENTAS")
+print("----------------------")
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -17,6 +19,8 @@ print("🏆 Producto más vendido:", producto_top)
 
 # Ventas por producto
 ventas_producto = df.groupby("producto")["ingreso"].sum()
+ventas_producto.to_csv("reporte.csv")
+print("📁 Reporte exportado como reporte.csv")
 
 # Gráfica
 ventas_producto.plot(kind="bar", title="Ingresos por producto")

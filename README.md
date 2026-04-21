@@ -1,3 +1,4 @@
+## 🚀 Proyecto de análisis de datos con Python
 # 📊 E-commerce Sales Analyzer (Python)
 
 Este proyecto analiza datos de ventas de una tienda online y genera reportes con gráficos para apoyar la toma de decisiones.
