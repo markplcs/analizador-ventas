@@ -1,27 +1,36 @@
-# 📊 Analizador de Ventas E-commerce
+# 📊 E-commerce Sales Analyzer (Python)
 
-Proyecto en Python que analiza datos de ventas y genera reportes con gráficos.
+Este proyecto analiza datos de ventas de una tienda online y genera reportes con gráficos para apoyar la toma de decisiones.
 
 ## 🚀 Funcionalidades
 - Cálculo de ingresos totales
-- Producto más vendido
-- Gráfica de ingresos por producto
+- Identificación del producto más vendido
+- Análisis de ventas por producto
+- Visualización de datos con gráficos
 
 ## 🛠️ Tecnologías usadas
 - Python
 - Pandas
 - Matplotlib
 
+## 📂 Dataset
+Archivo CSV con información de ventas:
+- fecha
+- producto
+- cantidad
+- precio
+
 ## ▶️ Cómo ejecutar
+
 1. Instalar dependencias:
-   py -m pip install pandas matplotlib
+py -m pip install pandas matplotlib
 
 2. Ejecutar el programa:
-   py main.py
+py main.py
 
-## 📁 Estructura del proyecto
-- main.py → código principal
-- ventas.csv → datos de ventas
+## 📊 Ejemplo de salida
 
-## 📸 Resultado
-(Aquí puedes poner capturas de tu gráfica)
+![Gráfica](grafica.png)
+
+## 🎯 Objetivo del proyecto
+Aplicar análisis de datos a un contexto real de e-commerce usando Python.
